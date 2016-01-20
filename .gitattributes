@@ -1,0 +1,6 @@
+*.cs text
+
+# Visual Studio is a bit fussy and expects CRLF
+*.sln text eol=crlf
+*.csproj text eol=crlf
+
