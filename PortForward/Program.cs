@@ -99,7 +99,7 @@ use:
             {
                 Source = src;
                 Destination = dst;
-                Data = new byte[8192];
+                Data = new byte[64 * 1024];
 
                 Source.BeginReceive(Data, 0, Data.Length, 0, OnDataReceive, this);
             }
